@@ -13,3 +13,11 @@
 .left {
     float: left;
 }
+
+.wiki image {
+    width: 200px;
+}
+
+.right {
+    float: right;
+}
