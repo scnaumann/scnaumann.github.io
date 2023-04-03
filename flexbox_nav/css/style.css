@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+}
+nav {
+    background-color: aquamarine;
+    padding: 24px;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    list-style-type: none;
+    max-width: 800px;
+    margin: 0px auto;
+}
+ul li {
+    margin: 12px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#home {
+    margin-right: auto;
+}
+#Chart Line {
+    margin-left: auto;
+}
