@@ -15,6 +15,33 @@ h1 {
     color: gray
 }
 
-img {
-    height: 200px;
+#GreatWhiteShark {
+    width: 200px;
+    float: left;
+    padding-right: 24px;
+}
+
+#GreatWhiteShark img {
+    width: 100%;
+}
+
+.card {
+    margin: 24px;
+    border: 3px solid blue;
+    padding: 16px;
+    /* offset-x offset-y
+    blur-radius spread-radius
+    color
+*/
+    box-shadow:  4px 4px 8px 2px gray;
+}
+
+h3 {
+    margin-left: 24px;
+}
+
+footer {
+    text-align: center;
+    background-color: skyblue;
+    padding: 36px;
 }
