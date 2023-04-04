@@ -13,14 +13,14 @@ div {
     background-color: salmon;
 }
 
-@media screen and (min-width: 1280px;) {
+@media screen and (min-width: 1080px;) {
     #tablet,
     #mobile {
         display: none;
     }
 }
 /* Tablet breakpoint */
-@media screen and (max-width: 1279px)
+@media screen and (max-width: 1080px)
     and (min-width: 768px) {
 #desktop,
 #mobile {
@@ -29,7 +29,7 @@ div {
 }
 
 /* Mobile breakpoint */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1080px) {
     #desktop,
     #tablet {
         display: none;
