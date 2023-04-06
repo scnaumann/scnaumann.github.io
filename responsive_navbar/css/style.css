@@ -25,28 +25,30 @@ li a {
 #Naumann Saloon {
     margin-right: auto;
 }
-
+.menu_container {
+    position: relative;
+}
 .menu_dropdown {
     background-color: orange;
     position: absolute;
     flex-direction: column;
-    width: 100%;
+    width: 150px;
     left: 0px;
     top: 75%;
     opacity: 0;
     visibility: hidden;
     transition: 
-        opacity: 0.5s,
-        visibility: 0.5s,
-        top 0.5s;
+        opacity 0.5s,
+        visibility 0.5s,
+        top 0.5s
 }
 
-.MenuDropdownhover {
+.menu_container:hover .menu_dropdown {
     opacity: 1;
     visibility: visible;
     top: 100%;
 }
 
-#wild_west_saloon {
-    width: 25px;
+img {
+    width: 250px;
 }
