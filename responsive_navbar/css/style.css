@@ -52,3 +52,12 @@ li a {
 img {
     width: 250px;
 }
+
+hr {
+    color: black;
+}
+
+.side_by_side {
+    display: flex;
+    justify-content: center;
+}
