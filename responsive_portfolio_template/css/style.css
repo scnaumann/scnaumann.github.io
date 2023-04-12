@@ -279,6 +279,12 @@ footer ul {
 
 #gallery_6 {
     width: 100%;
+    margin-bottom: 25px;
+    columns: 5 auto;
+}
+
+#gallery_6 img {
+    width: 100%;
     margin-bottom: 24px;
     columns: 5 auto;
 }
