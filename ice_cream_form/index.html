@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Forms Exercise</title>
+    </head>
+    <body>
+        <h1>Ice Cream Form</h1>
+        <form>
+            <fieldset>
+                <h4>Name</h4>
+                <div>
+                    <label>First Name:</label>
+                    <input type="text" id="first_name_id" name="first_name">
+                </div>
+                <div>
+                    <label>Middle Name:</label>
+                    <input type="text" id="middle_name_id" name="middle_name">
+                </div>
+                <div>
+                    <labeL>Last Name:</labeL>
+                    <input type="text" id="last_name_id" name="last_name">
+                </div>
+                <div>
+                    <label for="date_id">Date of Birth</label>
+                    <input type="datetime-local" id="date_id" name="date_of_birth">
+                </div>
+            </fieldset>
+            <fieldset>
+                <h4>What is your favorite ice cream flavor?</h4>
+                <div>
+                    <input type="radio" id="vanilla" name="ice_cream" value="rasp">
+                    <label for="vanilla">Vanilla</label>
+                </div>
+                <div>
+                    <input type="radio" id="chocolate" name="ice_cream" value="rasp">
+                    <label for="chocolate">Chocolate</label>
+                </div>
+                <div>
+                    <input type="radio" id="strawberry" name="ice_cream" value="rasp">
+                    <label for="vanilla">Strawberry</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <h4>Other Ice Cream flavors</h4>
+                <div>
+                    <label for="ice_cream_flavor_id">
+                        What is your favorite ice cream flavor?
+                    </label>
+                    <select id="ice_cream_flavor_id" name="other_ice_cream_flavor">
+                        <option value="coffee">Coffee</option>
+                        <option value="cookies'n'cream">Cookies'N'Cream</option>
+                        <option value="chocolate_chip">Chocolate Chip</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <h4>When you are done, press this button</h4>
+                <div>
+                    <input type="submit" value="Submit Survey">
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
