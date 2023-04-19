@@ -44,3 +44,23 @@ input[type=submit] {
     color: white;
     min-width: 100px;
 }
+
+#search_bar {
+    color: lightgray;
+}
+
+#name:invalid {
+    background-color:red;
+}
+
+#name:valid {
+    background-color: green;
+}
+
+#email:invalid {
+    background-color: red;
+}
+
+#email:valid {
+    background-color: green;
+}
