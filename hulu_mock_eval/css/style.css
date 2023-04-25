@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: gray;
+    align-items: center;
+}
+
+img {
+    width: 35px;
+    
+}
+
+h5 {
+    text-align: center;
+    color: lightgreen;
+    font-family: sans-serif;
+}
+
+#hulu_and_disney {
+    width: 100px;
+    justify-content: center;
+}
+
+#log_in_option h5 {
+    color: lightgray;
+    text-align: right;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#both_button input[type=button] {
+    background-color: green;
+}
+
+#apply_terms {
+    color: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#hulu_signup {
+    color: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#trio_pack {
+    color: white;
+    text-align: center;
+    font-family: sans-serif
+}
+
+#triple_button input[type=button] {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
