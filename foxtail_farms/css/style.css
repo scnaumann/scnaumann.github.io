@@ -354,3 +354,49 @@ footer ul {
 .card p {
     font-family: 'Montserrat', sans-serif;
 }
+
+h2 {
+    font-family: "Lobster", cursive;
+}
+
+.card img {
+    width: 150px;
+    text-align: center;
+}
+
+.card {
+    align-items: center;
+}
+
+.card a {
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    min-width: 150px;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+li a {
+    font-family: "Lobster", cursive;
+}
+
+h1 {
+    font-family: "Lobster", cursive;
+    color: gray;
+}
+
+h4 {
+    font-family: "Lobster", cursive;
+    color: gray;
+}
+
+#hero {
+    background-image: url("../images/Red\ Fox.jpeg")
+}
