@@ -8,26 +8,50 @@
 #t15_container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-
+    grid-template-areas: "one two three";
 }
 
 /* Task 16 - Write your code solution below */
-
+#t16_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 /* Task 17 - Write your code solution below */
 #t17_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-        "one two three";
+    grid-template-areas: "two three one";
 }
 
 #t17_cell_1 {
+    grid-area: one;
+}
+#t17_cell_2 {
+    grid-area: two;
+}
+#t17_cell_3 {
     grid-area: three;
 }
 
 /* Task 18 - Write your code solution below */
+#t18_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one one one"
+        "three two two";
+}
 
+#t18_cell_1 {
+    grid-area: one;
+}
+#t18_cell_2 {
+    grid-area: two;
+}
+#t18_cell_3 {
+    grid-area: three;
+}
 
 /* Task 19 - Write your code solution below */
 #t19_container {

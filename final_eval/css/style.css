@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0b0c0f;
+}
+
+#heading_top {
+    background-image: url("../images/mediaAssets/backgroundLarge.jpg");
+    background-size: cover;
+}
+
+nav {
+    padding: 5px 0px;
+    background-color: #0b0c0f;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+nav img {
+    width: 60px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#sign_up_button {
+    background-color: blue;
+    border-radius: 4px;
+    margin-left: 480px;
+}
+
+#log_in_button {
+    border: 3px solid white;
+    border-radius: 6px;
+    margin-right: 50px;
+}
+
+#heading_content {
+    align-items: center;
+    text-align: center;
+}
+
+#heading_content #triple_pack {
+    width: 60%;
+    padding: 40px;
+}
+
+#heading_content p,
+#heading_content p a {
+    color: gray;
+    height: 5px;
+    padding: 10px;
+}
+
+#heading_content #email_text {
+    background-color: #262628;
+    border-style: none;
+    padding: 7.5px;
+    border-radius: 3px;
+    padding-right: 200px;
+}
+
+#heading_content #disney_bundle_button {
+    background-color: blue;
+    color: white;
+    border-style: none;
+    padding: 7.5px;
+    border-radius: 3px;
+}
+
+#heading_content #quad_pack {
+    width: 60%;
+}
+
+#heading_content #plan_options {
+    color: white;
+}
+
+#tiny_p {
+    font-size: 12px;
+}
+
+#sign_up_button,
+#log_in_button {
+    margin-right: auto;
+}
+
+#show_section ul {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 50px;
+    padding: 50px;
+}
+
+#show_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+#show_container img {
+    height: 250px;
+}
+
+#disney_plus_bottom img {
+    width: 60px;
+    align-items: center;
+}
+
+#bottom_tag {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#very_bottom {
+    color: white;
+    display: grid;
+    text-align: center;
+}
