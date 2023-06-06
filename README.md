@@ -1,1 +1,0 @@
-# scnaumann.github.io
