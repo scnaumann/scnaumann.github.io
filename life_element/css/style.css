@@ -18,12 +18,13 @@ body {
     padding: 15px;
 }
 .images {
-    float: left;
+    float: center;
     padding-right: 25px;
     margin: 0px;
 }
 .images img {
     width: 175px;
+    align-items: center;
 }
 .exposition {
     font-size: 20px;
