@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+#title_bar {
+    text-align: center;
+    background-color: skyblue;
+    padding: 25px;
+}
+#title {
+    color: white;
+}
+.name {
+    font-size: 25px;
+}
+.card {
+    margin: 25px;
+    border: 5px solid skyblue;
+    padding: 15px;
+}
+.images {
+    float: left;
+    padding-right: 25px;
+    margin: 0px;
+}
+.images img {
+    width: 175px;
+}
+.exposition {
+    font-size: 20px;
+}
